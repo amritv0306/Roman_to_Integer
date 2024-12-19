@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f9fc;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 2.5rem;
+    color: #fff;
+    background-color: #00c6ff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.hide {
+    display: none;
+}
+
+
+.section-1, .section-2 {
+    text-align: center;
+    margin: 20px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 500px;
+}
+
+label {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+input {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    font-size: 1rem;
+    border: 2px solid #00c6ff;
+    border-radius: 5px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #0086ff;
+}
+
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #00c6ff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0086ff;
+}
+
+/* Output Section */
+.section-2 h2 {
+    font-size: 1.5rem;
+    color: #333;
+}
